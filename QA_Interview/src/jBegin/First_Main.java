@@ -7,11 +7,11 @@ public class First_Main {
 		int len = s.length();
 		String rev ="";
 		
+		// using for loop
 		for(int i = len-1; i>=0; i--) {
 			rev = rev + s.charAt(i);
 			//System.out.println(rev);
 		}
-		
 		System.out.println(rev);
 	}
 
