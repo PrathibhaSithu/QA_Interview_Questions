@@ -13,12 +13,6 @@ public class ReverseInteger {
 			System.out.println(num);
 		}
 		System.out.println("Reverse Numbers Are :: " + rev);
-		
-		int n = 4;
-		int m = 3;
-		
-		m = n + m;
-		System.out.println(m);
 
 	}
 
