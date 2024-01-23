@@ -1,5 +1,8 @@
 package jBegin;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class Find_Duplicates {
 
 	public static void main(String[] args) {
@@ -12,6 +15,14 @@ public class Find_Duplicates {
 				}
 			}
 		}
+		
+		Set<String> Store = new HashSet<String>();
+		for(String PName: ProNames){
+			if(Store.add(PName) == false){
+				System.out.println("Hash Set Output" + PName);
+			}
+		}
+		
 	}
 
 }
