@@ -8,9 +8,17 @@ public class ReverseInteger {
 		
 		while(num !=0) {
 			rev = rev*10 + num%10;
+			System.out.println(rev);
 			num = num/10;
+			System.out.println(num);
 		}
 		System.out.println("Reverse Numbers Are :: " + rev);
+		
+		int n = 4;
+		int m = 3;
+		
+		m = n + m;
+		System.out.println(m);
 
 	}
 
