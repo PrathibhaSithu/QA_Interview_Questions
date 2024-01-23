@@ -19,7 +19,7 @@ public class Find_Duplicates {
 		Set<String> Store = new HashSet<String>();
 		for(String PName: ProNames){
 			if(Store.add(PName) == false){
-				System.out.println("Hash Set Output" + PName);
+				System.out.println("Hash Set Output :: " + PName);
 			}
 		}
 		
