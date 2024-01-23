@@ -16,12 +16,13 @@ public class FindSmallLarge {
 			else if(num[i]<smallest) {
 				smallest = num[i];
 			}
-			System.out.println("\n Given Array is : " + Arrays.toString(num));
-			System.out.println("Largest Number in the Array is : " + largest);
-			System.out.println("Smallest Number in the Array is : " + smallest);
+//			System.out.println("\n Given Array is : " + Arrays.toString(num));
+//			System.out.println("Largest Number in the Array is : " + largest);
+//			System.out.println("Smallest Number in the Array is : " + smallest);
 		}
-		
-
+		System.out.println("\n Given Array is : " + Arrays.toString(num));
+		System.out.println("Largest Number in the Array is : " + largest);
+		System.out.println("Smallest Number in the Array is : " + smallest);
 	}
 
 }
