@@ -16,6 +16,7 @@ public class StringManipulation {
 		System.out.println(str.equals(str1));
 		System.out.println(str.equalsIgnoreCase(str1));
 		System.out.println(str.substring(0, 8));
+		
 	}
 
 }
