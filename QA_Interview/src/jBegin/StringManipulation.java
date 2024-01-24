@@ -9,6 +9,8 @@ public class StringManipulation {
 		System.out.println(str.charAt(5));
 		System.out.println(str.indexOf("T"));
 		System.out.println(str.indexOf("T",5));
+		System.out.println(str.indexOf("j",5)+1);
+		System.out.println(str.indexOf("Fox"));
 	}
 
 }
