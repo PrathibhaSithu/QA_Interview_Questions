@@ -8,7 +8,7 @@ public class StringManipulation {
 		System.out.println(str.length());
 		System.out.println(str.charAt(5));
 		System.out.println(str.indexOf("T"));
-
+		System.out.println(str.indexOf("T",5));
 	}
 
 }
